@@ -171,9 +171,30 @@
   <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <button class="carousel-control-next me-1" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
+  <style>
+    @media (max-width: 576px) {
+  
+  .right-icons {
+   position: fixed !important; 
+    height: 400px;
+    width: 35px;
+    top: 165px;
+    right: -5px;
+    z-index: 9099 !important; 
+    list-style-type: none;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0; 
+    color: var(--bs-success) !important;
+  }
+}
+  </style>
   
 </div>
 
