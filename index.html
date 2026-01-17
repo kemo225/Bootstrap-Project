@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="Css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="Css/style.css">
+<script src="jsav.js" defer></script>
+
+ <title>Tikos</title>
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg bg-light navbar-header container-fluid ">
+  <div class="container-fluid ">
+     <a class="navbar-brand" href="#">
+      <img src="images/تصميم بدون عنوان.png" alt="Avatar Logo" style="width: 80px;cursor:text;" class="rounded-pill text-success"> 
+    </a>
+
+    <a class="navbar-brand bordr-end-header px-3 text-success text-capitalize fs-3 fw-bold ls-2" href="javascript:void(0)">tikos</a>
+    <button class="navbar-toggler bg-success text-light" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item mx-3">
+          <a class="nav-link text-muted rounded-4 px-3 aheaderlinkes" href="javascript:void(0)">Home</a>
+        </li>
+        <li class="nav-item text-dark mx-3">
+          <a class="nav-link text-dark rounded-4 px-3 aheaderlinkes" href="javascript:void(0)">Contact</a>
+        </li>
+        <li class="nav-item dropdown mx-3 ">
+  <a class="nav-link dropdown-toggle text-dark rounded-4 px-3 aheaderlinkes" href="#" role="button" data-bs-toggle="dropdown">Menu</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">T-Shirt</a></li>
+    <li><a class="dropdown-item" href="#">Coats</a></li>
+    <li><a class="dropdown-item" href="#">Shoes</a></li>
+        <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">More..</a></li>
+  </ul>
+</li>
+  <li class="nav-item mx-3">
+          <a class="nav-link text-dark rounded-4 px-3 aheaderlinkes" href="javascript:void(0)">AboutUs</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-3 rond" type="text" placeholder="Search">
+        <button class="btn btn-success me-3 btnsearch-login" type="button">Search</button>
+         <button class="btn bg-white text-success border-success hoverlogin" type="button">Login</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+ <ul class="right-icons">
+    <li><i class="fa-brands fa-square-facebook fs-2 iface-header"></i></li>
+    <li><i class="fa-brands fa-square-instagram fs-2 iinsta-header"></i></li>
+    <li><i class="fa-brands fa-square-twitter fs-2 itwitter-header"></i></li>
+    <li><i class="fa-brands fa-square-youtube fs-2 iyoutube-header"></i></li>
+    <li><i class="fa-brands fa-google fs-2 igoogle-header"></i></li>
+  </ul>
+<!-- Carousel -->
+<div id="demo" class="carousel slide courssl "data-bs-ride="carousel">
+ 
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner"> 
+
+    <div class="carousel-item active" >
+      <img src="images/1-2 woman.jpg" style="height: 100vh;" alt="Los Angeles" class="d-block w-100">
+        <div class="carousel-caption text-white div-caption-coursal" >
+          <div class="d-sm-flex flex-column justify-content-sm-center align-items-sm-center">
+    <h3 class="pb-2">Los Angeles</h3>
+    <p >We had such a great time in LA!</p>
+        <button class="btn border border border-success text-white btnhovercallus">Call Us</button>
+        </div>
+        </div><!-- /carousel-caption  -->
+      </div><!-- /carousel-item -->
+    <div class="carousel-item">
+      <img src="images/1-2 womann.jpg"style="height: 100vh;"   alt="Chicago" class="d-block w-100">
+        <div class="carousel-caption text-white div-caption-coursal" >
+          <div class="d-sm-flex flex-column justify-content-sm-center align-items-sm-center">
+    <h3 class="pb-2">Los Angeles</h3>
+    <p >We had such a great time in LA!</p>
+        <button class="btn border border border-success text-white btnhovercallus">Call Us</button>
+        </div>
+        </div><!-- /carousel-caption  -->
+    </div>
+    <div class="carousel-item">
+      <img src="images/goodwom.jpg" style="height: 100vh;"  alt="New York" class="d-block w-100">
+        <div class="carousel-caption text-white div-caption-coursal" >
+          <div class="d-sm-flex flex-column justify-content-sm-center align-items-sm-center">
+    <h3 class="pb-2">Los Angeles</h3>
+    <p >We had such a great time in LA!</p>
+        <button class="btn border border border-success text-white btnhovercallus">Call Us</button>
+        </div>
+        </div><!-- /carousel-caption  -->
+    </div>
+    <div class="carousel-item">
+  <img src="images/new.jpg" style="height: 100vh;"  alt="New York" class="d-block w-100">
+        <div class="carousel-caption text-white div-caption-coursal" >
+          <div class="d-sm-flex flex-column justify-content-sm-center align-items-sm-center">
+    <h3 class="pb-2">Los Angeles</h3>
+    <p >We had such a great time in LA!</p>
+        <button class="btn border border border-success text-white btnhovercallus">Call Us</button>
+        </div>
+        </div><!-- /carousel-caption  -->
+</div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  
+</div>
+
+<div class="d-flex flex-column justify-content-start align-items-start p-3"style="background-color: rgb(235, 255, 249);">
+<h2 class="text-capitalize fw-bold">welcome</h2>
+<p class="text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt illum optio quam ipsum impedit ab quae sed quisquam iusto assumenda? Temporibus ipsum dolore quas, distinctio voluptatem perferendis. Veritatis, itaque officia?</p>
+<button class="btn btn-success text-capitalize btn-learnmore">learn more</button>
+</div>
+<hr >
+<div class="d-flex justify-content-center align-items-center "style="height: 100px;background-color: rgb(235, 255, 249);">
+  <h2 class="text-dark fst-italic">The Most Famous Dishes In Our Restaurant</h2>
+</div>
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+        Cheese Cake
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+      <div class="card-body">
+        A crispy and flavorful meal made with tender chicken pieces, seasoned with special herbs and spices, coaled in crunchy crust. Perfectly fried and served hot with fries, coleslaw, or your favourite souce.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        French Fries
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+A crispy and flavorful meal made with tender chicken pieces, seasoned with special herbs and spices, coaled in crunchy crust. Perfectly fried and served hot with fries, coleslaw, or your favourite souce.      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+        Fried Chicken
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+A crispy and flavorful meal made with tender chicken pieces, seasoned with special herbs and spices, coaled in crunchy crust. Perfectly fried and served hot with fries, coleslaw, or your favourite souce.      </div>
+    </div>
+  </div>
+
+</div>
+
+<hr>
+
+<section style="background-color: rgb(235, 255, 249);">
+  
+  <div class="d-flex justify-content-center align-items-center">
+    <h2 class="fst-italic fs-2 mt-2">
+      Translate from Arabic to English
+    </h2>
+  </div>
+
+  <div class="d-flex flex-column justify-content-evenly align-items-start p-3" style="height: 200px;margin-top: -15px;">
+   <div class="d-flex"><p class="pe-3 fs-4">write and Translate</p><p class="fs-5 text-success" >press here</p>
+    </div> 
+  <button class="btn btn-success mb-2" id="copyatoe" data-bs-toggle="modal" data-bs-target="#myModal" style="margin-top: -15px;">copy</button>
+    <div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title text-success fw-bold fs-3">Tikos</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div  id="atoebody" class="modal-body ">
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">ok</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<textarea class="rounded-1 p-2 fs-6" name="" id="textareaatoe" style="width: 100%;" placeholder="Translate:"></textarea>
+  </div>
+
+</section>
+
+<hr>
+
+<section style="background-color: rgb(235, 255, 249);">
+
+  <div class="d-flex justify-content-center align-items-center">
+    <h2 class="fst-italic fs-2 mt-2">
+      Translate from German to Arabic
+    </h2>
+  </div>
+
+  <div class="d-flex flex-column justify-content-evenly align-items-start p-3" style="height: 200px;margin-top: -15px;">
+   
+    <div class="d-flex"><p class="pe-3 fs-4">write and Translate</p><p class="fs-5 text-success" >press here</p>
+    </div> 
+
+    <button class="btn btn-success mb-2" id="copygtoa" data-bs-toggle="modal" data-bs-target="#myModal" style="margin-top: -15px;">copy</button>
+    <div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title text-success fw-bold fs-3">Tikos</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div  id="gtoabody" class="modal-body ">
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">ok</button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+    <textarea class="rounded-1 p-2 fs-6" name="" id="textareagtoa" style="width: 100%;" placeholder="Translate:"></textarea>
+ 
+  </div>
+
+</section>
+
+<hr>
+
+<section style="background-color: rgb(235, 255, 249);">
+
+  <div class="d-flex justify-content-center align-items-center">
+    <h2 class="fst-italic fs-2 mt-2">
+      Translate from English to Arabic
+    </h2>
+  </div>
+
+  <div class="d-flex flex-column justify-content-evenly align-items-start p-3" style="height: 200px;margin-top: -15px;">
+ <div class="d-flex"><p class="pe-3 fs-4">write and Translate</p><p class="fs-5 text-success" >press here</p>
+    </div> 
+
+    <button class="btn btn-success mb-2" id="copyetoa" data-bs-toggle="modal" data-bs-target="#myModal" style="margin-top: -15px;">copy</button>
+    <div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title text-success fw-bold fs-3">Tikos</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div  id="etoabody" class="modal-body ">
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">ok</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+    
+<textarea class="rounded-1 p-2 fs-6" name="" id="textareaetoa" style="width: 100%;" placeholder="Translate:"></textarea>
+ 
+</div>
+
+</section>
+
+<hr>
+
+<section class="container-fluid section-photo">
+  <style>
+  .section-photo
+  {
+    background-image: url("images/1-2greenwoman.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+  }
+</style>
+</section>
+
+<section class="d-flex justify-content-center align-items-center mt-5" style="height: 100px;background-color: rgb(235, 255, 249);">
+  <h2>..Popular Dishes in our Restaurant..</h2>
+</section>
+
+<section class="container-fluid mt-5">
+
+  <div class="row justify-content-center align-items-center gap-md-4" style="min-height: 450px;">
+
+    <div class="card col-md-3 col-10 border-1 mb-md-1 mb-5 position-relative cursor-pointer diveffect" style="height: 450px;padding: 10px !important;">
+    <img src="images/new.jpg" class="card-img-top" style="width: 100%;height: 70%;display: block;" alt="...">
+
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+
+    </div>
+
+     <div class="card col-md-3 col-10 border-1 mb-md-1 mb-5  diveffect" style="height: 450px;padding: 10px !important;">
+    <img src="images/newnew.jpg" style="width: 100%;height: 70%;display: block;" alt="...">
+
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+
+
+</div>
+
+ <div class="card col-md-3 col-10 border-1 mb-md-1 mb-5 diveffect" style="height: 450px;padding: 10px !important;">
+    <img src="images/tkk.jpg" style="width: 100%;height: 70%;display: block;" alt="...">
+
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+
+</div>
+
+  </div>
+  
+      <div class="row justify-content-center align-items-center gap-md-4 my-md-3" style="min-height: 450px;">
+
+    <div class="card col-md-3 col-10 border-1 mb-md-1 mb-5 diveffect" style="height: 450px;padding: 10px !important;">
+
+    <img src="images/newnew.jpg" class="card-img-top" style="width: 100%;height: 70%;display: block;" alt="...">
+
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+
+    </div>
+
+     <div class="card col-md-3 col-10 border-1 mb-md-1 mb-5 diveffect " style="height: 450px;padding: 10px !important;">
+  
+      <img src="images/nnnnn.jpg" style="width: 100%;height: 70%;display: block;" alt="...">
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  
+  </div>
+
+
+</div>
+
+ <div class="card col-md-3 col-10 border-1 mb-md-1 mb-5 diveffect" style="height: 450px;padding: 10px !important;">
+    <img src="images/1-2 woman.jpg" style="width: 100%;height: 70%;display: block;" alt="...">
+
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+
+</div>
+
+  </div>
+  
+
+    <div class="row justify-content-center align-items-center gap-md-5" style="min-height: 450px;">
+    
+       <div class="card col-md-3 col-10 border-1 mb-md-1 mb-5 diveffect" style="height: 450px;padding: 10px !important;">
+    <img src="images/nn.jpg" style="width: 100%;height: 70%;display: block;" alt="...">
+
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+
+</div>
+
+ <div class="card col-md-3 col-10 border-1  mb-md-1 mb-5 diveffect" style="height: 450px;padding: 10px !important;">
+    <img src="images/nnnnn.jpg" style="width: 100%;height: 70%;display: block;" alt="...">
+
+  <div class="card-body d-flex flex-column justify-content-evenly align-items-start">
+    <h5 class="card-title fst-italic">Card title</h5>
+        <a href="#" class="btn btn-primary align-self-end mb-1 cursor-pointer z-2 w-25 border-0 text-uppercase" style="background-color: rgb(255, 0, 0);">Buy</a>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+
+</div>
+
+  </div>
+
+</section>
+<section class="container-fluid mt-5" style="height: 300px;background-attachment: fixed;background-image: url(images/new.jpg);background-position: center top;background-size: cover;background-repeat: no-repeat;">
+</section>
+<hr>
+<section class="container-fluid d-flex justify-content-center align-items-center" style="background-color: rgb(235, 255, 249);">
+  <h2 class="fst-italic py-3"  >..Thanks For..</h2>
+</section>
+
+<section class="container-fluid" >
+  <div class="row justify-content-center align-items-center  mt-5 gx-4">
+<div class="col-md-2 col-10 bg-dark rounded-4 position-relative inner" style="transition: 1s;height: 250px;background-image: url(images/newnew.jpg);background-position: center;background-size: cover;background-repeat: no-repeat">
+  <div class="position-absolute top-0 rounded-4 start-0 h-100 w-100 text-white  p-2 d-flex flex-column justify-content-center align-items-start" style="background-color: rgba(0, 0, 0, 0.652);cursor: pointer;">
+   <h3 class="title fs-6 fst-italic ">All Thanks And Appreciation</h3>
+   <p class="Time">🕔June 22, 2023</p>
+   <div class="border mt-2" style="background-image: url(images/nnnnn.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;height: 100px;width: 75px;border-radius: 30px;" ></div>
+   <p class="name ">Eng.Salem Mohamed</p>
+   <p class="job fst-italic" style="margin-top: -18px;margin-bottom: -5px;">Director Of UI/UX</p>
+  </div>
+</div>
+<div class="col-md-2 col-10 bg-dark rounded-4 position-relative inner my-4" style="margin: 0 80px;transition: 1s;height: 250px;background-image: url(images/goodwom.jpg);background-position: center;background-size: cover;background-repeat: no-repeat">
+  <div class="position-absolute top-0 rounded-4 start-0 h-100 w-100 text-white  p-2 d-flex flex-column justify-content-center align-items-start" style="background-color: rgba(0, 0, 0, 0.652);cursor: pointer;">
+   <h3 class="title fs-6 fst-italic">All Thanks And Appreciation</h3>
+   <p class="Time">🕔June 22, 2023</p>
+   <div class="border mt-2" style="background-image: url(images/newnew.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;height: 100px;width: 75px;border-radius: 30px;" ></div>
+   <p class="name ">Eng.Salem Mohamed</p>
+   <p class="job fst-italic" style="margin-top: -18px;margin-bottom: -5px;">Director Of UI/UX</p>
+
+  </div>
+</div>
+ <div class="col-md-2 col-10 bg-dark rounded-4 position-relative inner" style="transition: 1s;height: 250px;background-image: url(images/tkk.jpg);background-position: center;background-size: cover;background-repeat: no-repeat">
+  <div class="position-absolute top-0 rounded-4 start-0 h-100 w-100 text-white  p-2 d-flex flex-column justify-content-center align-items-start" style="background-color: rgba(0, 0, 0, 0.652);cursor: pointer;">
+   <h3 class="title fs-6 fst-italic">All Thanks And Appreciation</h3>
+   <p class="Time">🕔June 22, 2023</p>
+   <div class="border mt-2" style="background-image: url(images/nn.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;height: 100px;width: 75px;border-radius: 30px;" ></div>
+   <p class="name ">Eng.Salem Mohamed</p>
+   <p class="job fst-italic " style="margin-top: -18px;margin-bottom: -5px;">Director Of UI/UX</p>
+
+  </div>
+</div>
+<style>
+  .inner:hover
+  {
+transform: scale(0.8);
+  }
+</style>
+</section>
+
+<section class="container-fluid">
+  <h2  style="text-align: center;margin-top: 120px;" class="mb-5">Restaurant News</h2>
+  <div class="row justify-content-evenly align-items-center gap-5">
+    <div class="bg-white col-10 row flex-md-row flex-column-reverse text-dark hver" style="box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.453);cursor: pointer;">
+      <div class="d-flex  col-md-9 col-lg-8 flex-column justify-content-evenly align-items-start p-2" style="min-height: 420px;">
+        <h2 class="fst-italic text-success fw-bold mb-5 mb-md-0" style="margin-top: -15px;">Podcast Title</h2>
+        <p class="text-dark pb-2 text-dark fw-bold mb-4 mb-md-0" style="margin-top: -10px;border-bottom: 5px solid rgba(0, 128, 0, 0.903);">Mon.May 25th 2020</p>
+        <p style="margin-top: -8px;line-height: 25px;color: black;" class="mb-3 mb-md-0">In Our Kitchen, Passion Doesn’t Stop At Taste Alone;
+           It Extends To Include Innovation And Renewal In Every Detail Of Our Dishes And Services.
+            We Are Always Keen To Provide Everything New For Lovers Of Distinctive Taste, From Seasonal Dishes Made With The Finest Fresh Ingredients,
+             To The Special Offers We Constantly Prepare For You To Enjoy A Unique And Unforgettable Experience.
+              Follow Our News Section To Stay Up-To-Date On The Latest Updates, 
+              Whether It’s New Recipes, Special Events, Or Innovative Product Launches That Suit All Tastes.
+           We Are Here To Share Our Passion For Food And Provide You With An Exceptional Experience With Every Visit And Every Dish.</p>
+        <div style="margin-top: -2px;">
+          <button class="btn btn-success text-capitalize clc" ><i class="fa-solid fa-podcast"></i> podcast</button>
+          <button class="clc btn btn-success mx-2 text-capitalize"><i class="fa-regular fa-clock"></i> 43 min</button>
+          <button class="clc text-capitalize btn btn-success mt-2 mt-md-0"><i class="fa-solid fa-play"></i> play episode</button></div>   
+      <style>
+        .clc
+        {
+          transition: 0.5s;
+        }
+.clc:hover
+{
+
+background-color: black;
+}
+      </style>
+      </div>
+      <div class="clip col-md-3 col-lg-4 mb-4 mb-md-0 photo" style="transition:background-size ease 1s;background-image: url(images/tkk.jpg);background-position: center;background-size: 100% 100%;background-repeat: no-repeat;height: 420px;">
+      </div>
+    </div>
+      <div class="bg-white col-10 row flex-md-row-reverse flex-column-reverse text-dark hver" style="box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.453);cursor: pointer;">
+      <div class="d-flex  col-md-9 col-lg-8 flex-column justify-content-evenly align-items-start p-2" style="min-height: 420px;">
+        <h2 class="fst-italic text-success fw-bold mb-5 mb-md-0" style="margin-top: -15px;">Podcast Title</h2>
+        <p class="text-dark pb-2 text-dark fw-bold mb-4 mb-md-0" style="margin-top: -10px;border-bottom: 5px solid rgba(0, 128, 0, 0.903);">Mon.May 25th 2020</p>
+        <p style="margin-top: -8px;line-height: 25px;color: black;" class="mb-3 mb-md-0">In Our Kitchen, Passion Doesn’t Stop At Taste Alone;
+           It Extends To Include Innovation And Renewal In Every Detail Of Our Dishes And Services.
+            We Are Always Keen To Provide Everything New For Lovers Of Distinctive Taste, From Seasonal Dishes Made With The Finest Fresh Ingredients,
+             To The Special Offers We Constantly Prepare For You To Enjoy A Unique And Unforgettable Experience.
+              Follow Our News Section To Stay Up-To-Date On The Latest Updates, 
+              Whether It’s New Recipes, Special Events, Or Innovative Product Launches That Suit All Tastes.
+           We Are Here To Share Our Passion For Food And Provide You With An Exceptional Experience With Every Visit And Every Dish.</p>
+        <div style="margin-top: -2px;"><button class="btn btn-success text-capitalize clc" ><i class="fa-solid fa-podcast"></i> podcast</button><button class="clc btn btn-success mx-2 text-capitalize"><i class="fa-regular fa-clock"></i> 43 min</button><button class="clc text-capitalize btn btn-success mt-2 mt-md-0"><i class="fa-solid fa-play"></i> play episode</button></div>   
+      <style>
+        .clc
+        {
+          transition: 0.5s;
+        }
+.clc:hover
+{
+
+background-color: black;
+}
+      </style>
+      </div>
+      <div class="clipp2-4 col-md-3 col-lg-4 mb-4 mb-md-0 photo" style="transition: background-size ease 1s ;background-image: url(images/mush.jpg);background-position: center;background-size: 100% 100%;background-repeat: no-repeat;height: 420px;">
+      </div>
+    </div>
+    <div class="bg-white col-10 row flex-md-row flex-column-reverse text-dark hver" style="box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.453);cursor: pointer;">
+      <div class="d-flex  col-md-9 col-lg-8 flex-column justify-content-evenly align-items-start p-2" style="min-height: 420px;">
+        <h2 class="fst-italic text-success fw-bold mb-5 mb-md-0" style="margin-top: -15px;">Podcast Title</h2>
+        <p class="text-dark pb-2 text-dark fw-bold mb-4 mb-md-0" style="margin-top: -10px;border-bottom: 5px solid rgba(0, 128, 0, 0.903);">Mon.May 25th 2020</p>
+        <p style="margin-top: -8px;line-height: 25px;color: black;" class="mb-3 mb-md-0">In Our Kitchen, Passion Doesn’t Stop At Taste Alone;
+           It Extends To Include Innovation And Renewal In Every Detail Of Our Dishes And Services.
+            We Are Always Keen To Provide Everything New For Lovers Of Distinctive Taste, From Seasonal Dishes Made With The Finest Fresh Ingredients,
+             To The Special Offers We Constantly Prepare For You To Enjoy A Unique And Unforgettable Experience.
+              Follow Our News Section To Stay Up-To-Date On The Latest Updates, 
+              Whether It’s New Recipes, Special Events, Or Innovative Product Launches That Suit All Tastes.
+           We Are Here To Share Our Passion For Food And Provide You With An Exceptional Experience With Every Visit And Every Dish.</p>
+        <div style="margin-top: -2px;"><button class="btn btn-success text-capitalize clc" ><i class="fa-solid fa-podcast"></i> podcast</button><button class="clc btn btn-success mx-2 text-capitalize"><i class="fa-regular fa-clock"></i> 43 min</button><button class="clc text-capitalize btn btn-success mt-2 mt-md-0"><i class="fa-solid fa-play"></i> play episode</button></div>   
+      <style>
+        .clc
+        {
+          transition: 0.5s;
+        }
+.clc:hover
+{
+
+background-color: black;
+}
+      </style>
+      </div>
+      <div class="clip col-md-3 col-lg-4 mb-4 mb-md-0 photo" style="transition: background-size ease 1s ;background-image: url(images/tkk.jpg);background-position: center;background-size: 100% 100%;background-repeat: no-repeat;height: 420px;">
+      </div>
+    </div>
+      <div class="bg-white col-10 row flex-md-row-reverse flex-column-reverse text-dark hver" style="box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.453);cursor: pointer;">
+      <div class="d-flex  col-md-9 col-lg-8 flex-column justify-content-evenly align-items-start p-2" style="min-height: 420px;">
+        <h2 class="fst-italic text-success fw-bold mb-5 mb-md-0" style="margin-top: -15px;">Podcast Title</h2>
+        <p class="text-dark pb-2 text-dark fw-bold mb-4 mb-md-0" style="margin-top: -10px;border-bottom: 5px solid rgba(0, 128, 0, 0.903);">Mon.May 25th 2020</p>
+        <p style="margin-top: -8px;line-height: 25px;color: black;" class="mb-3 mb-md-0">In Our Kitchen, Passion Doesn’t Stop At Taste Alone;
+           It Extends To Include Innovation And Renewal In Every Detail Of Our Dishes And Services.
+            We Are Always Keen To Provide Everything New For Lovers Of Distinctive Taste, From Seasonal Dishes Made With The Finest Fresh Ingredients,
+             To The Special Offers We Constantly Prepare For You To Enjoy A Unique And Unforgettable Experience.
+              Follow Our News Section To Stay Up-To-Date On The Latest Updates, 
+              Whether It’s New Recipes, Special Events, Or Innovative Product Launches That Suit All Tastes.
+           We Are Here To Share Our Passion For Food And Provide You With An Exceptional Experience With Every Visit And Every Dish.</p>
+        <div style="margin-top: -2px;"><button class="btn btn-success text-capitalize clc" ><i class="fa-solid fa-podcast"></i> podcast</button><button class="clc btn btn-success mx-2 text-capitalize"><i class="fa-regular fa-clock"></i> 43 min</button><button class="clc text-capitalize btn btn-success mt-2 mt-md-0"><i class="fa-solid fa-play"></i> play episode</button></div>   
+      <style>
+        .clc
+        {
+          transition: 0.5s;
+        }
+.clc:hover
+{
+
+background-color: black;
+}
+      </style>
+      </div>
+      <div class="clipp2-4 col-md-3 col-lg-4 mb-4 mb-md-0 photo" style="transition: background-size ease 1s ;background-image: url(images/nn.jpg);background-position: center;background-size: 100% 100%;background-repeat: no-repeat;height: 420px;">
+      </div>
+    </div>
+    <style>
+      .hver:hover .photo
+      {
+background-size: 120% 120% !important;
+      }
+      @media (min-width:768px) {
+        
+.clip
+      {
+        clip-path: polygon(0% 0%,
+        100% 0%,
+        100% 100%,
+        20% 100%
+        );
+      }
+
+        
+      }
+      
+    </style>
+     <style>
+      @media (min-width:768px) {
+        
+.clipp2-4
+      {
+        clip-path: polygon(0% 0%,
+        100% 0%,
+       70% 100%,
+       0% 100%
+        );
+      }
+
+        
+      }
+      
+    </style>
+  </div>
+</section>
+
+
+<section style="margin-top: 80px;margin-bottom: 80px;" class="container">
+
+  <div  class="parenticon row gap-5 justify-content-center align-items-center " >
+ <div style="height: 200px;box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.529);transform-style: preserve-3d !important;" class="col-10 col-md-3 col-lg-5 col-xxl-2 border border-black rounded-3  d-flex flex-column justify-content-between align-items-center pt-2 pb-2">
+ <p style="color: rgba(0, 0, 0, 0.534);"class="fs-5">Subscribe Now</p>
+ <div class="iconn" style="margin-top: -18px;">
+    <div class="wts"><i class="fa-brands fa-whatsapp"></i></div>
+ </div>
+  <a class="text-capitalize " href="" style="font-size: 18px;">Go To Link</a>
+</div>
+ <div style="height: 200px;box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.529);" class="col-10 col-md-3 col-lg-5 col-xxl-2 border border-black rounded-3  d-flex flex-column justify-content-between align-items-center pt-2 pb-2">
+ <p style="color: rgba(0, 0, 0, 0.534);"class="fs-5">Subscribe Now</p>
+  <i class="fa-brands fa-instagram iconinsta"></i>
+  <a class="text-capitalize " href="" style="font-size: 18px;">Go To Link</a>
+</div>
+ <div style="height: 200px;box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.529);" class=" col-10 col-md-3 col-lg-5 col-xxl-2 border border-black rounded-3  d-flex flex-column justify-content-between align-items-center pt-2 pb-2">
+ <p style="color: rgba(0, 0, 0, 0.534);"class="fs-5">Subscribe Now</p>
+ <div class="scene" style="margin-top: -20px;">
+ <div class="cube" >
+ <div class="face top"></div> 
+   <div class="face front"><i class="fa-brands fa-linkedin-in"></i></div> 
+  <div class="face left"></div> 
+ <div class="face  bottom"></div> 
+  <div class="face back"></div>
+    <div class="face right"></div>
+    <div class="-shadow"></div>
+</div> <!-- /scene -->
+</div> <!-- /cube -->
+  <a class="text-capitalize " href="" style="font-size: 18px;">Go To Link</a>
+</div>
+ <div style="height: 200px;box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.529);transform-style: preserve-3d !important;perspective-origin: right top !important;" class=" col-10 col-lg-5 col-md-3 col-xxl-2 border border-black rounded-3  d-flex flex-column justify-content-between align-items-center pt-2 pb-2">
+ <p style="color: rgba(0, 0, 0, 0.534);"class="fs-5">Subscribe Now</p>
+  <i class="fa-brands fa-twitter iconface"></i>
+  <a class="text-capitalize " href="" style="font-size: 18px;">Go To Link</a>
+</div>
+  </div><!-- parent -->
+  <style>
+    .iconinsta
+    {
+ padding: 0 4px;
+ font-size: 75px;
+ margin-top: -38px;
+ border-radius: 12px;
+color: rgba(255, 255, 255, 0.907);
+  box-shadow:
+    0.5px 0px 0 1px    #feda75,
+    2px 0px 0 1px    #feda75,2px 0px 0 1px    #feda75 ,2px 0px 0 1px    #feda75  ,1px 0px 0 1px    #feda75,0.5px 0px 0 1px    #feda75,0.5px 0px 0 1px    #feda75,0.5px 0px 0 1px    #feda75,0.5px 0px 0 1px    #feda75;
+    transform: perspective(100px) rotate(-15deg) rotateY(220deg) rotateX(-18deg);
+text-shadow: 10px 10px 0 1px black, -10px 10px 0 1px black, -10px 10px 0 1px black, -10px 10px 0 1px black, -10px 10px 0 1px black, -10px 10px 0 1px black  !important;
+        background: linear-gradient(
+    to Left,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+
+    }
+    .parenticon > div
+    {
+cursor: pointer;
+transition: 1s;
+    }
+    .parenticon > div:hover
+    {
+transform: scale(1.1);
+    }
+    .iconface
+    {
+       padding: 12px;
+ font-size: 50px;
+ margin-top: -20px;
+ border-radius: 10px;
+ background-color: rgb(0, 174, 222);
+ color: white;
+ box-shadow: 0px 0px 10px 5px rgb(127, 229, 255) inset;
+ box-shadow: 0px 0px 6px 0.1px rgb(46, 46, 46);
+ text-shadow: 0 0 6px black;
+
+    }
+   
+</style>
+</section>
+
+<footer class="footer container-fluid " style="background-color: rgb(36, 36, 36);">
+<div class="parent row pt-5 justify-content-center align-items-center">
+
+<div class="col-11 row justify-content-center align-items-center py-md-3 py-2" style="min-height: 300px;border-top: 0.5px solid rgba(255, 255, 255, 0.197);border-bottom: 0.5px solid rgba(255, 255, 255, 0.219);">
+  <div class="col-lg-4 col-10 text-light p-0" style="height: 300px;">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <img src="images/1-2 woman.jpg" alt="" style="height: 150px;width: 180px;" class="pt-1">
+      <h4 class="fst-italic">Good Morning</h3>
+      <p style="height: 1px;width: 100%;background-color: rgb(129, 129, 129);"class="lineinsidediv"></p>
+      <div class="d-flex flex-column justify-content-center align-items-center" style="height: 95px;color: rgba(255, 255, 255, 0.867);">
+        <p >Tel: 000-000-000</p>
+      <p>Address: EGYPT</p>
+      <p>Fax: 000-000-000</p>
+      </div>
+    </div>
+</div><!-- left -->
+<hr class="linefooter" style="display: none;">
+   <div class="col-lg-4 text-light col-10 p-0" style="height: 300px;">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <img src="images/1-2 woman.jpg" alt="" style="height: 150px;width: 180px;" class="pt-1">
+      <h4 class="fst-italic">Important Links</h3>
+      <p style="height: 1px;width: 100%;background-color: rgb(129, 129, 129);"class="lineinsidediv"></p>
+      <div class="d-flex flex-column justify-content-center align-items-center" style="height: 95px;color: rgba(255, 255, 255, 0.867);">
+        <p>Tel: 000-000-000</p>
+      <p>Address: EGYPT</p>
+      <p>Fax: 000-000-000</p>
+      </div>
+    </div>
+</div><!-- center -->
+<hr class="linefooter" style="display: none;">
+      <div class="col-lg-4 text-light col-10  p-0" style="height: 300px;">
+    <div class="d-flex  flex-column justify-content-center align-items-center">
+      <img src="images/1-2 woman.jpg" alt="" style="height: 150px;width: 180px;" class="pt-1">
+      <h4 class="fst-italic">Vision</h3>
+      <p style="height: 1px;width: 100%;background-color: rgb(129, 129, 129);"class="lineinsidediv"></p>
+      <div class="d-flex flex-column justify-content-center align-items-center" style="height: 95px;color: rgba(255, 255, 255, 0.867);">
+        <p >Tel: 000-000-000</p>
+      <p>Address: EGYPT</p>
+      <p>Fax: 000-000-000</p>
+      </div>
+    </div>
+</div><!-- right -->
+<style>
+  @media (max-width:576px) {
+.linefooter
+{
+  display: block !important;
+  color: white;
+  margin-top: 20px;
+}
+    .lineinsidediv
+    {
+      display: none;
+    }
+  }
+</style>
+</div><!-- top -->
+
+<div class="col-11 d-flex justify-content-center align-items-center" style="min-height: 60px;color: green;">
+<p style="font-size: 20px;text-align: center;">&copy; 2026 FoodExpress. All Rights Reserved. Designed By Eng/ Karim Ayman</p>  
+</div><!-- bottom -->
+
+
+</div><!-- parent -->
+</footer><!-- footer -->
+
+</body>
+</html>

@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h-100vh
+{
+    height: 100vh !important;
+}
+.ls-2
+{
+    letter-spacing: 2px;
+}
+.navbar-header
+{
+    position: fixed !important;
+    z-index:900  !important;
+}
+.nav-link:focus
+{
+    border: 0.2px solid var(--bs-success)!important;
+    color: black !important;
+}
+.rond:focus
+{
+   box-shadow: 0px 0px 10px grey;
+}
+.hoverlogin:hover
+{
+background-color: var(--bs-success)!important; 
+color:var(--bs-light)!important; 
+}
+.aheaderlinkes
+{
+    color: rgba(0, 0, 0, 0.585)!important;
+}
+.aheaderlinkes:hover
+{
+    color: black !important;
+}
+.div-caption-coursal
+{
+    background-color: rgba(0, 0, 0, 0.359); 
+    margin-bottom: 20px;
+    margin: 20px auto;
+    border: 0.5px solid white;
+}
+.btnhovercallus
+{
+    margin: auto;
+}
+.btnhovercallus:hover
+{
+background-color: green;
+}
+
+.right-icons
+{
+    position: fixed !important; 
+    height: 400px;
+    width: 35px;
+    top: 165px;
+    right: 0px;
+    z-index: 9099 !important; 
+    list-style-type: none;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0; 
+    color: var(--bs-success) !important;
+}
+.right-icons li > i
+{
+    cursor: pointer;
+    color:var(--bs-muted);
+}
+
+.right-icons li > .iface-header:hover
+{
+    color: blue;
+}
+.right-icons li > .iinsta-header:hover
+{
+    color: red;
+   
+}.right-icons li > .itwitter-header:hover
+{
+    color: rgb(0, 191, 255);
+   
+}.right-icons li > .iyoutube-header:hover
+{
+    color: red;
+   
+}.right-icons li > .igoogle-header:hover
+{
+    color: green;
+   
+}
+.bordr-end-header
+{
+    border-right: 0.5px solid black;
+}
+.btn-learnmore:hover
+{
+    background-color: rgba(0, 128, 0, 0.896);
+}
+#overlay
+{
+     position: fixed !important; /* Sit on top of the page content */
+     display: none;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 100000 !important; /* Specify a stack order in case you're using a different order for other elements */
+}
+.modal-footer
+{
+    border: none !important;
+}
+.diveffect::before
+{
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+height: 0;
+width: 50%;
+transition: 0.6s;
+background-color: rgba(0, 128, 0, 0.053);
+}
+.diveffect:hover::before
+{
+    height: 100%;
+width: 100%;
+background-color:rgba(0, 128, 0, 0.038);
+
+}
+.diveffect::after
+{
+position: absolute;
+content: "";
+bottom: 0;
+right: 0;
+height: 0;
+width: 50%;
+transition: 0.6s;
+background-color: rgba(0, 128, 0, 0.053);
+}
+.diveffect:hover::after
+{
+    height: 100%;
+width: 100%;
+background-color:rgba(0, 128, 0, 0.038);
+}
+.diveffect
+{
+    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.314);
+}
+.scene{
+  perspective: 400px;
+  height: 80px;
+  width: 80px;
+}
+
+.cube{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform-style: preserve-3d;
+  transition: 4s;
+  transform: rotateX(-8deg) rotateY(25deg) rotate(-5deg);
+}
+
+
+
+.face{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 2.5px solid rgba(10, 102, 194, 0.8); /* LinkedIn border */
+}
+
+/* أغمق شوية */
+.top,
+.bottom{
+  background-color: #004182;
+}
+/* اللون الأساسي  z+ m3 face*/
+.left,
+.right,
+.back{
+  background-color: #0A66C2;
+}
+
+/* أفتح شوية */
+.front{
+  transform: translateZ(39px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  background-color: #0A66C2;
+}
+
+.top{
+  transform: rotateX(90deg) translateZ(40px);
+}
+
+.left{
+  transform: rotateY(-90deg) translateZ(39px);
+}
+
+.bottom{
+  transform: rotateX(90deg) translateZ(-39px);
+}
+
+.back{
+  transform:translateZ(-39px);
+}
+
+.right{
+  transform: rotateY(90deg) translateZ(39px);
+}
+.scenewts{
+  perspective: 1000px;
+  width: 80px;
+  height: 80px;
+}
+
+/* الجسم الأساسي */
+.iconn{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform-style: preserve-3d;
+  transition: 4s;
+  transform: rotateX(-8deg) rotateY(30deg) rotate(-5deg);
+  perspective: 300px;
+}
+.wts{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2.5px solid rgba(37, 211, 102, 0.8); /* WhatsApp border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  background-color: #25D366;
+  box-shadow: 0 0px 10px 3px  rgb(255, 255, 255),
+              0 0px 10px 6px  rgba(37, 211, 102, 0.5),
+              0 0px 10px 9px  rgba(37, 211, 102, 0.4),
+              0 0px 10px 12px rgba(37, 211, 102, 0.3);
+}
