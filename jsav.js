@@ -1,6 +1,6 @@
 document.getElementById("copyetoa").onclick=function ()
 {
-  if(document.getElementById("textareaetoa").value!=="")
+  if(document.getElementById("textareaetoa").value!=="" )
   {
         navigator.clipboard.writeText(document.getElementById("textareaetoa").value)
 
